@@ -1,0 +1,122 @@
+.topdiv{
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #EB6626
+}
+
+.logo {
+    width: 135px;
+    height: 50px;
+    left: 60px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.icon {
+    font-size: 24px;
+    color: #6c757d; /* Adjust the color as needed */
+}
+.notification-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
+top-section{
+    height: 700px;
+    background: #F3F3F3;
+}
+
+.category-color{
+    color: black;
+
+}
+
+.category-color :hover{
+    color: black;
+}
+
+.secondpaseblock {
+    width: 460.37px;
+    height: 444.7px;
+    top: 253.3px;
+    left: 827.51px;
+    gap: 0px;
+    border-radius: 0px 105px 0px 114px;
+    opacity: 0px;
+    background: #EB6626;
+}
+.secondpasepic {
+    transform: scale(1.9);
+}
+.second-phaseMain {
+    margin-top: 150px;
+}
+
+
+
+.secondpaseheader{
+    width: 526px;
+    height: 70px;
+    top: 402px;
+    left: 62px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 170px;
+
+}
+.secondpaseletter {
+    width: 526px;
+    height: 70px;
+    top: 402px;
+    left: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-right: 30px;
+
+}
+
+.secondpasebutton{
+    width: 196px;
+    height: 56px;
+    top: 520px;
+    left: 63px;
+    gap: 0px;
+    border-radius: 4px ;
+    opacity: 0px;
+    background: #EB6626;
+    border-color:#EB6626;
+    color: white;
+}
+
+.secondpasebuttonn{
+    width: 196px;
+    height: 56px;
+    top: 520px;
+    left: 63px;
+    gap: 0px;
+    border-radius: 4px ;
+    opacity: 0px;
+    border-color:#EB6626;
+    color: #EB6626;
+}
+
+.scondphaseleft{
+    margin-bottom: 150px;
+}
