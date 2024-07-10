@@ -1,8 +1,13 @@
+.colorset{
+    background: #F3F3F3;
+
+}
+
 .topdiv{
     height: 50px;
     gap: 0px;
     opacity: 0px;
-    background-color: #EB6626
+    background-color: #EB6626;
 }
 
 .logo {
@@ -32,8 +37,7 @@
     font-size: 10px;
 }
 
-top-section{
-    height: 700px;
+.top-section{
     background: #F3F3F3;
 }
 
@@ -88,7 +92,7 @@ top-section{
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    padding-right: 30px;
+    padding-right: 100px;
 
 }
 
@@ -119,4 +123,224 @@ top-section{
 
 .scondphaseleft{
     margin-bottom: 150px;
+}
+
+.Trdphaseicon {
+    width: 50px;
+    height: 50px; 
+    margin-left: 100px;
+    
+}
+
+.Trdphasehd {
+    width: 116px;
+    height: 30px;
+     font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+.Trdphasetxt {
+    width: 204px;
+    height: 48px;
+    top: -2939px;
+    left: -6582px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.8px;
+    text-align: left;    
+} 
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frthphasetitle {
+    width: 211px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    
+}
+
+.frthphasetext{
+    width: 149px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #000000;
+}
+
+.frthphaseimg {
+    width: 400px;
+    height: 255px;
+    top: 1006px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;  
+    object-fit: cover;
+    object-position: top;
+}
+
+.frthphaseimg1 {
+    width: 360px;
+    height: 525px;
+    top: 1006px;
+    left: 508px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.gallery-menu {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+  }
+  .gallery-menu .nav-link {
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+  }
+  .gallery-menu .nav-link:hover {
+    color: #EB6626;
+  }
+
+  .fthphaseimg {
+    width: 312px;
+    height: 253px;
+    top: 1791px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+    box-shadow: 1px 1px 5px grey;
+
+  }
+
+  .dots {
+    color: #333;
+    width: 15px;
+    height: 15px;
+  }
+
+  .stars {
+    color: #FAC302;
+
+  }
+ 
+  .rating {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #696969;
+
+
+  }
+
+  .offer {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    width: 42px;
+    height: 18px;
+    color: #FFFFFF;
+    background: #EB6626;
+    Width:48px;
+    Height:23px;
+  }
+
+  .buttonMargin {
+    margin-bottom: 140px;
+
+  }
+.cardButton {
+    background-color: #EB6626;
+    color: #FFFFFF;
+} 
+
+.OnHoverShow {
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.containar:hover .OnHoverShow {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+
+
+
+
+.background-container {
+    background-image: url('picture/6thphasebg.jfif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    z-index: 1;
+}
+
+.content-container {
+    position: relative;
+    z-index: 2;
+}
+
+.fthphaseh{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fthphasei{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 25px;
 }
