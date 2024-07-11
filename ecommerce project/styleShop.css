@@ -130,3 +130,50 @@
 
 
         }
+
+.meetoutteamimg{
+    width: 312px;
+    height: 385px;
+    top: 1185px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.meetoutteamh{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+
+}
+
+.meetoutteamt{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+
+.OVMh{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    color: #EB6626;
+}
+.OVMt{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:  #515151;
+    
+
+}
