@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Bars Over Image</title>
+    <style>
+        .image-container {
+            position: relative;
+            width: 320px; /* Adjusted width to account for gaps */
+            height: 300px; /* Adjust as per your image size */
+            margin: auto;
+        }
+
+        .vertical-bar {
+            position: absolute;
+            top: 0;
+            width: 23%; /* Adjust width of each bar */
+            height: 100%;
+            background: url('picture/aboutus.jfif') no-repeat center/cover; /* Use the same image for all bars */
+            z-index: 1; /* Ensure bars are above the image */
+            border-radius: 50px; /* Rounded corners */
+            overflow: hidden;
+        }
+
+        .vertical-bar:nth-child(1) { left: 0; background-position: 0; }
+        .vertical-bar:nth-child(2) { left: 25%; background-position: 25%; }
+        .vertical-bar:nth-child(3) { left: 50%; background-position: 50%; }
+        .vertical-bar:nth-child(4) { left: 75%; background-position: 75%; }
+
+    </style>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="image-container">
+                    <!-- Vertical bars -->
+                    <div class="vertical-bar "></div>
+                    <div class="vertical-bar mt-3"></div>
+                    <div class="vertical-bar"></div>
+                    <div class="vertical-bar mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

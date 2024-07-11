@@ -189,7 +189,7 @@
 }
 
 .frthphaseimg {
-    width: 400px;
+    width: 300px;
     height: 255px;
     top: 1006px;
     left: 60px;
@@ -236,8 +236,6 @@
   .fthphaseimg {
     width: 312px;
     height: 253px;
-    top: 1791px;
-    left: 60px;
     gap: 0px;
     opacity: 0px;
     object-fit: cover;
@@ -409,4 +407,82 @@
 
 .nphase {
     margin-top: 100px;
+}
+
+.footerWord {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.48px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footerStyle {
+    background: #1A1818;
+    height: 500px;
+
+    
+}
+
+.iconfooter {
+    font-size: 24px;
+    color: white; /* Adjust the color as needed */
+}
+
+.footerheader{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+.footerbutton{
+    background: #EB6626;
+    width: 250px;
+    height: 39px;
+    gap: 0px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: #000000;
+
+
+}
+
+.footerWordlast{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.footerlogo{
+    width: 50px;
+    height:40px;
+
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.underline-hr {
+    border: 0;
+    height: 2px; /* Thickness of the underline */
+    width: 50%; /* Width of the underline relative to the heading */
+    background-color: #FF5733; /* Color of the underline */
+    margin-top: -2px; /* Adjust this value as needed to bring the hr closer to the heading */
+}
+.heading {
+    display: inline-block;
+    position: relative;
+}
+
+.rotate-icon {
+    transition: transform 0.3s;
+}
+.rotate-icon.up {
+    transform: rotate(180deg);
 }
