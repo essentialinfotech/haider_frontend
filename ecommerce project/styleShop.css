@@ -475,9 +475,10 @@
 
 .product-details-info-btn{
     border: 1px solid #EB6626;
-    color:#EB6626;
+    color:white;
     width: 129px;
     height: 30px;
+    background-color: #EB6626;
 }
 
 .quantity-selector {
@@ -504,3 +505,102 @@
     color: white;
 }
 
+.loginbackground-container {
+    background-image: url('picture/register.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.loginbackground-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    z-index: 1;
+}
+
+.registration-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #EB6626;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #d55b20;
+}
+
+.register-heading-action{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #EB6626;
+}
+
+
+
+.login-heading{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #000;
+}
+
+.wishlist-color{
+    color: #EB6626;
+}
+.wishlist-cross{
+    color: red;
+    font-weight: 700;
+}
+.wishlist-items-pic{
+    width: 70px;
+height: 55px;
+}
