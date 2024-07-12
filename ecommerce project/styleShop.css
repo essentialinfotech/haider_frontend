@@ -528,10 +528,13 @@
 .registration-form {
     width: 80%;
     margin: 0 auto;
-    padding: px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
+}
+
+.registration-form.updated {
+    width: 100%;
 }
 
 .registration-form h2 {
@@ -546,7 +549,9 @@
 
 .registration-form input[type="text"],
 .registration-form input[type="email"],
-.registration-form input[type="password"] {
+.registration-form input[type="password"],
+.registration-form input[type="number"],
+.registration-form textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -603,4 +608,61 @@
 .wishlist-items-pic{
     width: 70px;
 height: 55px;
+}
+
+.checkoutbillinH{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #EB6626;
+
+
+}
+
+
+
+.placeorder-card{
+    width: 100%;
+    height: 850px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.checkout-card-h{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.checkout-card-t{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.checkout-card-t input{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #4A4A4A;
+}
+
+.placeorder-checkout{
+    width: 80%;
+    height: 40px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    background-color: #EB6626;
 }
