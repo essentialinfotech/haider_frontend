@@ -1,0 +1,63 @@
+.popup-cart-icon{
+    width: 350px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.popup-cart{
+    width: 70px;
+    height: 50px;
+
+}
+.popup-cart-description{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+.popup-cart-details{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #9B9B9B;
+}
+
+.popup-text-color{
+    color: #EB6626;
+}
+.popup-button-color{
+    width: 267px;
+    height: 34px;
+    border-radius: 2px 0px 0px 0px;
+    background: #EB6626;
+    border-color: #EB6626;
+    color: #FFFFFF;
+}
+
+.popup-button-color-2{
+    width: 267px;
+    height: 34px;
+    border-radius: 2px 0px 0px 0px;
+    border-color: #EB6626;
+    color: #EB6626;
+}
+
+
+.search-bar {
+    display: none; /* Hide search bar by default */
+    position: absolute;
+    top: 50px; /* Adjust position as needed */
+    right: 10px; /* Adjust position as needed */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.search-bar.active {
+    display: block; /* Display search bar when active */
+}
