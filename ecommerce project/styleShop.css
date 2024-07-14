@@ -794,3 +794,13 @@ height: 55px;
 .vertical-bar:nth-child(2) { left: 25%; background-position: 25%; }
 .vertical-bar:nth-child(3) { left: 50%; background-position: 50%; }
 .vertical-bar:nth-child(4) { left: 75%; background-position: 75%; }
+
+
+
+
+@media only screen and (max-width: 600px){
+.cartd-table{
+    max-height: 600px;
+}
+
+}

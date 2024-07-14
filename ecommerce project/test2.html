@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .Trdphaseicon {
+            width: 50px;
+            height: 50px;
+            text-align: right;
+        }
+
+        .Trdphasehd {
+            font-family: Roboto, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        .Trdphasetxt {
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20.8px;
+            text-align: left;
+        }
+
+        @media (max-width: 767px) {
+            .Trdphasehd, .Trdphasetxt {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container thirtphase mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row p-0">
+                    <div class="col-12 col-sm-6 d-flex  justify-content-center justify-content-sm-end">
+                        <img src="picture/delivery.png" class="Trdphaseicon " alt="Easy Returns">
+                    </div>
+                    <div class="col-12 col-sm-6  justify-content-center justify-content-md-start  ">
+                        <h1 class="Trdphasehd align-items-sm-start mb-md-5 mb-lg-0">Easy Returns</h1>
+                        
+                        <p class="Trdphasetxt align-items-sm-start">Lorem ipsum consectetur adipiscing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row p-0">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end">
+                        <img src="picture/icon-1.png" class="Trdphaseicon" alt="Easy Returns">
+                    </div>
+                    <div class="col-12 col-sm-6 flex-column justify-content-center align-items-center align-items-sm-start">
+                        <h1 class="Trdphasehd mb-md-5 mb-lg-0">Easy Returns</h1>
+                        <p class="Trdphasetxt">Lorem ipsum consectetur adipiscing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row p-0">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end">
+                        <img src="picture/credit-card.png" class="Trdphaseicon" alt="Easy Returns">
+                    </div>
+                    <div class="col-12 col-sm-6  flex-column justify-content-center align-items-center align-items-sm-start">
+                        <h1 class="Trdphasehd mb-md-5 mb-lg-0">Easy Returns</h1>
+                        <p class="Trdphasetxt">Lorem ipsum consectetur adipiscing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
